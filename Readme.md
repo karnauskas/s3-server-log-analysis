@@ -1,5 +1,5 @@
 # Introduction
-The customer usually records the accessing behavior by enabling CloudTrail data event or S3 bucket server log. S3 bucket server log will be store as none hierarchy layout. When analyze the S3 bucket server log by Athena, the response time usually is slow.
+The customer usually records the accessing behavior by enabling CloudTrail data event or S3 bucket server log. S3 bucket server log will be store as none hierarchy layout. When analyze the S3 bucket server log by Athena, the response time usually is slow. This code snippet provides a optimization method.
 
 # Optimization Method
 When enable the S3 server log, the log file will be stored as none hierarchy layout.
