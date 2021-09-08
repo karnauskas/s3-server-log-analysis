@@ -1,0 +1,15 @@
+https://aws.amazon.com/premiumsupport/knowledge-center/analyze-logs-athena/
+https://stackoverflow.com/questions/44891374/hive-partitioned-by-and-serdeproperties
+
+s3://picomy-salog
+\_reqbucket=airports
+  \_2021-09-06-09-22-37-ADFD08AA3AD322CB
+  \_2021-09-06-09-32-19-B9D588A97997FB9A
+
+s3://picomy-salog
+\_reqbucket=airports
+  \_reqyear=2021
+	\_reqmounth=09
+	  \_reqday=06
+		\_reqhour=09
+		  \_2021-09-06-09-32-19-B9D588A97997FB9A
