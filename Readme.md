@@ -18,8 +18,8 @@ Improve the Athena query speed, the best practice is to partition the S3 server 
 
 # Script excution order
 
-1 salog.sql
-2 lambda.py
+- salog.sql
+- lambda.py
 
 Lambda Environment variables
   - bucketName, the bucket stores the S3 server log.
